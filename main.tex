@@ -1,0 +1,30 @@
+% main.tex
+\input{preamble} % Charge les packages et configurations
+\usepackage{physique} % Charge les commandes et environnements personnalisés
+
+% Métadonnées du document
+\title{Exercices de colle - seconde année de CPGE - MP/PC/PSI}
+\author{Matthieu Santin}
+
+% Configuration des en-têtes et pieds de page
+\pagestyle{fancy}
+\renewcommand\headrulewidth{1pt}
+\fancyhead[L]{Exercices de colle}
+\fancyhead[R]{Matthieu Santin}
+\fancyfoot[C]{\thepage/\pageref{LastPage}  \hyperref[toc]{$\uparrow$}}
+\fancyfoot[R]{}
+
+\AtBeginDocument{
+    \addtocontents{toc}{\protect\label{toc}}
+}
+
+\begin{document}
+
+\frontmatter
+\include{front}
+\mainmatter
+
+\input{themes/ferromagnetisme}
+\input{themes/conversion_electromecanique}
+
+\end{document}

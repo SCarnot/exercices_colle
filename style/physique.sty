@@ -1,0 +1,35 @@
+% style/physique.sty
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{physique}
+
+% Commandes mathématiques personnalisées
+\newcommand*\dif{\mathop{}\!\mathrm{d}}
+\newcommand*\diver{\mathop{}\!\mathrm{div}}
+\newcommand*\grad{\mathop{}\!\mathrm{grad}}
+
+% Encadrés pour les corrections
+\usepackage{mdframed}
+
+% Définition des couleurs
+\definecolor{seagreen}{RGB}{215,244,238}
+
+% Style pour les encadrés de correction
+\mdfdefinestyle{stylecorrection}{%
+    middlelinewidth=0pt,
+    roundcorner=1pt,
+    backgroundcolor=seagreen,
+    innerleftmargin=5pt,
+    innerrightmargin=5pt,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    skipabove=0pt}
+
+% Environnement pour les corrections
+\newenvironment{correction}
+{\noindent\begin{mdframed}[style=stylecorrection]
+    \small\setlength{\parindent}{0pt}
+    \noindent\textit{\textbf{\underline{Corrigé} :}\newline}
+}
+{
+\end{mdframed}
+}
