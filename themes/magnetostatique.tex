@@ -1,0 +1,62 @@
+\chapter{Magnétostatique}
+
+\newpage
+
+\section{Champ magnétique dans un cylindre parcouru par un courant orthoradial}
+
+On considère un cylindre conducteur de rayon $a$ et de longueur $L\gg a$ selon l'axe $O_z$, dans lequel circule une densité volumique de courant $\vec{j}(r)=j_0\frac{r}{a}\vec{e}_\theta$.
+
+\begin{enumerate}
+
+	\item A l'aide des symétries et invariances, expliciter la dépendance spatiale et la direction du champ magnétique.
+	\item Déterminer l'expression du champ magnétique $\vec{B}(r)$ en fonction de la valeur du champ magnétique en $r=0$.
+	\item Quel est l'expression du champ magnétique $\vec{B}(r)$ si on impose un champ extérieur $\vec{B}_{ext}$ de sorte à ce que  $\vec{B}(r=a)=\vec{0}$ ? Quelle est alors la valeur de $\vec{B}_{ext}$ ?
+
+\end{enumerate}
+
+\newpage
+
+\begin{correction}
+
+\begin{enumerate}
+
+	\item Invariance : le champ ne dépend que de $r$. Symétrie : le plan $(\vec{e}_r ;\vec{e}_\theta)$ est plan de symétrie de la distribution de courant donc $\vec{B}$ est suivant $\vec{e}_z$.
+	
+	\item On calcule la circulation de $\vec{B}$ sur le contour $\Gamma$ :
+	{\centering
+		\includegraphics[scale=0.25]{magnetostatique1_1.pdf}\par }
+	\begin{align*}
+		\oint_\Gamma d\vec{l}\cdot\vec{B}&=\int_B^Cdz\times B(r)+\int_D^Adz\times B(0) \\
+		&=-hB(r)+hB(0)
+	\end{align*}	 
+	D'après le théorème d'Ampère, pour $r<a$ :
+	\begin{align}
+		-hB(r)+hB(0)&=\mu_0j_0h\frac{r^2}{2a}
+	\end{align}
+	Donc :
+	\begin{align*}
+		B(r) = B(0)-\mu_0j_0\frac{r^2}{2a}
+	\end{align*}
+	
+	Pour $r>a$ :
+	\begin{align*}
+		B(r) = B(0)-\mu_0j_0\frac{a}{2}
+	\end{align*}	
+
+
+	{\centering
+		\includegraphics[scale=0.25]{magnetostatique1_2.pdf}\par }
+	
+	\item On ajoute un champ magnétique extérieur $\vec{B}_{ext}$, nécessairement selon $\vec{e}_z$ :
+	\begin{align*}
+		B(r) = B(0)-\mu_0j_0\frac{r^2}{2a} + B_{ext}
+	\end{align*}
+	Si $B(r=a)=0$ alors $B_{ext}=-B(0)+\mu_0j_0\frac{a}{2}$ et alors :
+	\begin{align*}
+		B(r) = \frac{\mu_0j_0}{2a}\left( a^2-r^2\right) 
+	\end{align*}
+
+
+\end{enumerate}
+
+\end{correction}

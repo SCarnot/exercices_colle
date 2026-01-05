@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="252.5mm"
+   height="166.27992mm"
+   viewBox="0 0 252.5 166.27992"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="meca_flu_bassin.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.58251795"
+     inkscape:cx="577.6646"
+     inkscape:cy="278.10302"
+     inkscape:window-width="1512"
+     inkscape:window-height="838"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid182"
+       units="mm"
+       spacingx="0.1"
+       spacingy="0.1"
+       originx="4.0000001"
+       originy="-35.720085" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(4,-35.720085)">
+    <path
+       style="fill:#aaeeff;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180,112 h -28 c 0,0 -16,-55.999998 -28,-56 h -4 V 44.000001 C 144,44.000002 180,112 180,112 Z"
+       id="path3573" />
+    <rect
+       style="fill:#aaeeff;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3517"
+       width="132"
+       height="60"
+       x="116"
+       y="112" />
+    <rect
+       style="fill:#aaeeff;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3411"
+       width="100"
+       height="124"
+       x="20"
+       y="44" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+       d="m 68,136 c 0,0 16,0 16,16 h 128 c 0,0 4,0 4,-4 V 132 H 120 V 55.999998 H 104 V 100 H 67.999998 Z"
+       id="path238" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none"
+       d="m 224,132 v 16 c 0,12 -12,12 -12,12 H 76 C 60,160 60,144 60,144 V 100 H 20 v 76 h 228 v -44 z"
+       id="path1521" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="path3258"
+       sodipodi:type="arc"
+       sodipodi:cx="72"
+       sodipodi:cy="148"
+       sodipodi:rx="1"
+       sodipodi:ry="1"
+       sodipodi:start="5.7608581"
+       sodipodi:end="5.7595865"
+       sodipodi:arc-type="arc"
+       d="m 72.86666,147.5011 a 1,1 0 0 1 -0.367486,1.3654 1,1 0 0 1 -1.365517,-0.36705 1,1 0 0 1 0.366618,-1.36563 1,1 0 0 1 1.36575,0.36618"
+       sodipodi:open="true" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.999998,148 c 0,-7 -4,-9 -4,-9"
+       id="path3311" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72,148 c -7,0 -9,4 -9,4"
+       id="path3313" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72,148 c 0,7 4,9 4,9"
+       id="path3313-1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72,148 c 7,0 9,-4 9,-4"
+       id="path3313-1-5" />
+    <path
+       style="fill:#aaeeff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="M 7.7041668,43.999999 V 196"
+       id="path5027" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="M 7.7041668,202 5.7041669,194 H 9.7041663 Z"
+       id="path5029" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128,156 8,-2 v 4 z"
+       id="path5029-5" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.529167,88 2,8 h -4 z"
+       id="path5029-5-3" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 140.42167,66.227786 -6.38212,-5.221939 3.20822,-2.389002 z"
+       id="path5029-0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131,54 7,9"
+       id="path5779" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 134,156 h 16"
+       id="path5803" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.5,109 V 95"
+       id="path5805" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.9999998,43.999999 H 9.4999999"
+       id="path6579" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87778px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="-0.5526554"
+       y="47.279922"
+       id="text6635"><tspan
+         sodipodi:role="line"
+         id="tspan6633"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="-0.55265534"
+         y="47.279922">O</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87778px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       x="-5.0979907e-08"
+       y="192"
+       id="text6635-3"><tspan
+         sodipodi:role="line"
+         id="tspan6633-1"
+         style="font-size:9.87778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1"
+         x="0"
+         y="192">z</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 98.999999,43.999999 V 55.999998"
+       id="path8892" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 115,55.999998 V 132"
+       id="path8896" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       x="93"
+       y="52"
+       id="text8900"><tspan
+         sodipodi:role="line"
+         id="tspan8898"
+         style="stroke:none;stroke-width:1"
+         x="93"
+         y="52">h<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan8902">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       x="147"
+       y="125"
+       id="text8900-56"><tspan
+         sodipodi:role="line"
+         id="tspan8898-78"
+         style="stroke:none;stroke-width:1"
+         x="147"
+         y="125">h<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan8902-0">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       x="107"
+       y="114"
+       id="text8900-5"><tspan
+         sodipodi:role="line"
+         id="tspan8898-7"
+         style="stroke:none;stroke-width:1"
+         x="107"
+         y="114">H</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 139,112 v 19 1"
+       id="path8936" />
+    <g
+       id="g10487"
+       transform="translate(-12.252129,63.006538)">
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path9756"
+         cx="54.5"
+         cy="11.742515"
+         rx="6.2697964"
+         ry="6.2425146" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+         x="54.252129"
+         y="14.993462"
+         id="text9698"><tspan
+           sodipodi:role="line"
+           id="tspan9696"
+           style="stroke:none;stroke-width:1"
+           x="54.252129"
+           y="14.993462">1</tspan></text>
+    </g>
+    <g
+       id="g10487-2"
+       transform="translate(139.74787,111.00654)">
+      <g
+         id="g10631"
+         transform="translate(41.482334,-0.74905461)">
+        <ellipse
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path9756-9"
+           cx="54.5"
+           cy="11.742515"
+           rx="6.2697964"
+           ry="6.2425146" />
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;stroke-opacity:1"
+           x="54.252129"
+           y="14.993462"
+           id="text9698-1"><tspan
+             sodipodi:role="line"
+             id="tspan9696-0"
+             style="stroke:none;stroke-width:1"
+             x="54.252129"
+             y="14.993462">2</tspan></text>
+      </g>
+      <g
+         id="g13543"
+         transform="translate(1.0000035e-6,10.000001)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -19.747871,-75.006541 v 2.000001"
+           id="path13537" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -20.747871,-74.00654 h 1.999998"
+           id="path13539" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="-14.747869"
+         y="-68.006538"
+         id="text13547"><tspan
+           sodipodi:role="line"
+           id="tspan13545"
+           style="fill:#000000;stroke:none;stroke-width:1"
+           x="-14.747869"
+           y="-68.006538">A</tspan></text>
+      <g
+         id="g13543-0"
+         transform="translate(71.000001,88.000002)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -19.747871,-75.006541 v 2.000001"
+           id="path13537-3" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -20.747871,-74.00654 h 1.999998"
+           id="path13539-0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="56.252132"
+         y="9.9934626"
+         id="text13547-1"><tspan
+           sodipodi:role="line"
+           id="tspan13545-9"
+           style="fill:#000000;stroke:none;stroke-width:1"
+           x="56.252132"
+           y="9.9934626">B</tspan></text>
+      <g
+         id="g13543-0-6"
+         transform="translate(-31.127924,118.13175)">
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -19.747871,-75.006541 v 2.000001"
+           id="path13537-3-9" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -20.747871,-74.00654 h 1.999998"
+           id="path13539-0-0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="-44.577114"
+         y="39.273376"
+         id="text13547-1-1"><tspan
+           sodipodi:role="line"
+           id="tspan13545-9-6"
+           style="fill:#000000;stroke:none;stroke-width:1"
+           x="-44.577114"
+           y="39.273376">C</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;white-space:pre;inline-size:32;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="40"
+       y="156"
+       id="text13547-1-2"
+       transform="translate(0.29583396,-8)"><tspan
+         x="40"
+         y="156"
+         id="tspan16392">Pompe<tspan
+   y="156"
+   id="tspan16394"> </tspan></tspan><tspan
+         x="40"
+         y="168.34721"
+         id="tspan16396">P</tspan></text>
+    <g
+       id="g13543-0-1"
+       transform="translate(57.619945,135.13829)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -19.747871,-75.006541 v 2.000001"
+         id="path13537-3-0" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -20.747871,-74.00654 h 1.999998"
+         id="path13539-0-3" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="42.872078"
+       y="57.131752"
+       id="text13547-1-11"><tspan
+         sodipodi:role="line"
+         id="tspan13545-9-5"
+         style="fill:#000000;stroke:none;stroke-width:1"
+         x="42.872078"
+         y="57.131752">E</tspan></text>
+    <g
+       id="g13543-0-8"
+       transform="translate(83.619949,207.00654)">
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -19.747871,-75.006541 v 2.000001"
+         id="path13537-3-6" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m -20.747871,-74.00654 h 1.999998"
+         id="path13539-0-1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:9.87777px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="74.582291"
+       y="132"
+       id="text13547-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan13545-9-0"
+         style="fill:#000000;stroke:none;stroke-width:1"
+         x="74.582291"
+         y="132">D</tspan></text>
+  </g>
+</svg>
