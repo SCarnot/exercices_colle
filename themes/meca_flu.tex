@@ -427,7 +427,6 @@ Un fluide de forte viscosité ($\eta$, masse volumique $\rho$), d'épaisseur $h$
 
 	En projetant sur les axes $x$ et $z$, on obtient :
 	
-\noindent\fbox{\parbox{\linewidth\fboxrule-2\fboxsep}{
 \begin{equation}
 \left\lbrace
 \begin{array}{ccc}
@@ -435,7 +434,6 @@ Un fluide de forte viscosité ($\eta$, masse volumique $\rho$), d'épaisseur $h$
 \vec{e_z}  & : &-\rho g \cos\alpha - \frac{\partial P}{\partial z}=0\\
 \end{array}\right.
 \end{equation}	
-}}
 
 	\item En intégrant selon $\vec{e_z}$ et avec la condition au limite $P(x,z=h)=P_0$, on obtient :
 \begin{align*}
@@ -447,11 +445,9 @@ En intégrant selon $\vec{e_x}$, avec la condition aux limites $\frac{\partial v
 \end{align*}
 En intégrant une nouvelle fois, avec la condition aux limites $v(z=0)=0$ (continuité  de la vitesse avec le support) :
 
-\noindent\fbox{\parbox{\linewidth\fboxrule-2\fboxsep}{
 \begin{align*}
 	v(z)=\frac{\rho g}{\eta}\sin\alpha z\left( h-\frac{z}{2}\right) 
 \end{align*}
-}}
 
 Le profil de vitesse est parabolique.
 
@@ -461,11 +457,9 @@ Le profil de vitesse est parabolique.
 \end{align*}
 En intégrant, on obtient :
 
-\noindent\fbox{\parbox{\linewidth\fboxrule\fboxsep}{
 \begin{align*}
 	D=\frac{\rho g}{3\eta}\sin\alpha L h^3
 \end{align*}
-}}
 
 \item La glace a une densité de 900kg.m$^3$. La vitesse proposée est la vitesse maximale de la glace, car c'est celle en surface. On a donc $\eta\simeq7.1\cdot10^{12}$Pa.s.
 
@@ -477,11 +471,9 @@ Il faut garder à l'esprit que ce sont des ordre de grandeurs, car nous n'avons 
 La vitesse s'écrit : $v(z)=-\frac{\rho g}{2\eta}\sin\alpha z^2 +a +b$
 Avec les conditions aux limites, on trouve $b=0$ et $a=\frac{\rho g}{2\eta}\sin\alpha h$.
 
-\noindent\fbox{\parbox{\linewidth\fboxrule-2\fboxsep}{
 \begin{align*}
 	v(z)=\frac{\rho g}{2\eta}\sin\alpha z\left( h-z\right) 
 \end{align*}
-}}
 
 C'est un écoulement de Poiseuille. 
 
@@ -570,10 +562,9 @@ cad : $r^2 \sigma_\theta(r) - (r+dr)^2 \sigma_\theta(r+dr) = 0$. On en déduit q
 
 D'autre part, $\sigma_\theta=\eta\left(\frac{\partial v_\theta}{\partial r}-\frac{v_\theta}{r}\right) =\eta r \frac{\partial}{\partial r}\frac{v_\theta}{r} $. On trouve le résultant voulu :
 
-\noindent\fbox{\parbox{\linewidth\fboxrule-2\fboxsep}{	
 	\begin{align*}
 		\frac{\partial}{\partial r}\left(r^3 \frac{\partial}{\partial r}\frac{v_\theta}{r} \right) =0
-	\end{align*}}}
+	\end{align*}
 	
 	\item On intègre la relation précédente et on trouve :
 	\begin{align*}
@@ -581,10 +572,9 @@ D'autre part, $\sigma_\theta=\eta\left(\frac{\partial v_\theta}{\partial r}-\fra
 	\end{align*}
 	Les conditions aux limites sont : $v_\theta(r=R_{1,2})=R_{1,2}\Omega_{1,2}$. On obtient alors : 
 	
-	\noindent\fbox{\parbox{\linewidth\fboxrule-2\fboxsep}{	
 	\begin{align*}
 		v_\theta  = -\frac{(\Omega_2-\Omega_1)R_2^2R_1^2}{R_2^2-R_1^2}\frac{1}{r}+\frac{\Omega_2R_2^2-\Omega_1R_1^2}{R_2^2-R_1^2}r
-	\end{align*}}}
+	\end{align*}
 	
 	\item Le couple s'exerçant sur une surface élémentaire $dS=R_2\cdot d\theta\cdot  dz$ du cylindre 2 correspond au moment des forces de cisaillement en $R_2$ : $d\Gamma_{1\rightarrow2} = \sigma_\theta(R_2)\cdot dS\cdot R_2$.
 	
