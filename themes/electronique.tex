@@ -6,7 +6,7 @@
 
 On considère un générateur de triangles ci-dessous :
 \begin{center}
-	\includegraphics[scale=0.4]{electronique_generateur_triangle.png}
+	\includegraphics[scale=0.4]{electronique_generateur_triangle_1.png}
 \end{center}
 Les trois ALI, nommés respectivement, $(A1)$, $(A2)$ et $(A3)$ sont supposés idéaux. On note $\pm V_{sat}$ la tension de saturation des ALI.
 
@@ -16,9 +16,77 @@ Les trois ALI, nommés respectivement, $(A1)$, $(A2)$ et $(A3)$ sont supposés i
 
     \item Etablir la relation entre $v_e(t)$ et $v_1(t)$, puis entre $v_1(t)$ et $v_2(t)$.
 
-    \item Déterminer la valeur de $v_s$ selon le sens de variation de $v_2$, puis représenter graphiquement ces variations en reportant $v_s$ en ordonnée et $v_2$ en abscisse. On fera apparaïtre les valeurs remarquables.
+    \item Déterminer la valeur de $v_s$ selon le sens de variation de $v_2$, puis représenter graphiquement ces variations en reportant $v_s$ en ordonnée et $v_2$ en abscisse. On fera apparaître les valeurs remarquables.
 
-    \item Déterminer les variations de $v_2$ et $v_s$ en fonction du temps. Représenter ces variations sur un même graphe. Quelle tension une fonction triangulaire périodique du temps ? Calculer sa période $T$ en fonction de $R$, $C$, $R_1$, $R_2$, $R_3$ et $R_4$.
+    \item A partir des questions précédentes, en déduire quelle tension une fonction triangulaire périodique du temps. 
+    
+    \item Déterminer les variations de $v_2$ et $v_s$ en fonction du temps. Représenter ces variations sur un même graphe. Calculer sa période $T$ en fonction de $R$, $C$, $R_1$, $R_2$, $R_3$ et $R_4$.
 
 
 \end{enumerate}
+
+\newpage
+
+\begin{correction}
+    
+    \begin{enumerate}
+        
+        \item Pour un ALI idéal : les courants $i_+$ et $i_-$ sont nuls, la tension de sortie $v_s$ et l'intensité $i_s$ de sortie sont indépendantes ; la tension de sortie est limitée à $\pm V_{sat}$. Dans le cas d'un fonctionnement en régime linéaire, on a $\varepsilon=v_+-v_-=0$.
+        Compte tenu des rétroactions, les ALI 1 et 2 sont en régime linéaire et le 3 en saturation (rétroaction sur la borne +).
+
+        \item Une simple loi des noeuds permet de trouver : 
+        \begin{align*}
+            v_1=-\frac{R_2}{R_1}v_e
+        \end{align*}
+        et :
+        \begin{align*}
+            v_2=-\frac{1}{jRC\omega}v_1
+        \end{align*}       
+
+        \item On a affaire au comparateur à hystérésis. L'ALI fonctionnant en régime non linéaire, il faut comparer les tensions d'entrée $v_+=\pm V_{sat}R_3/(R_3+R_4)$ et $v_-=v_2$. On appelera $v_b=V_{sat}R_3/(R_3+R_4)$ la tension de basculement. 
+        
+        \begin{itemize}
+            \item Supposons dans un premier temps que $v_s=+V_{sat}$ et $v_2<v_+=v_b$. La condition $v_+>v_-$ est vérifiée, l'ALI est stable quelque soit la valeur de $v_2$ (tant qu'elle est inférieure à $v_b$).
+            \item On augmente $v_2$ jusqu'à atteindre $v_b$. A ce moment-là, $v_+<v_-$, l'ALI bascule à $v_s=-V_{sat}$ et $v_+=-v_b$. Comme $v_2>v_b$, la situation est stable quelque soit la valeur de $v_2$ (tant qu'elle est supérieure à $-v_b$).
+            \item On diminue $v_2$ jusqu'à atteindre $-v_b$. A ce moment-là, $v_+>v_-$, l'ALI bascule à $v_s=+V_{sat}$ et $v_+=v_b$. On se retrouve à la situation de départ. 
+        \end{itemize}
+
+        Cela permet de tracer le graphe de $v_s$ en fonction de $v_2$ :
+
+        {\centering
+		\includegraphics[scale=0.7]{electronique_generateur_triangle_2.pdf}\par }
+
+        \item L'ALI A3 est en régime saturé ; la tension $v_s$ est nécessairement un créneau au cours du temps $\pm V_{sat}$, donc $v_e$ aussi. L'ALI A1 étant un simple amplificateur, $v_1$ est aussi une fonction créneau périodique du temps. 
+        Ainsi, seule la tension à la sortie de l'ALI A2 peut être traingulaire ; de plus, il s'agit d'un intégrateur, le signal $v_2$ est l'intégrale au cours du temps de $V_1$ (qui est un créneau), c'est donc bien un signal triangle périodique du temps. 
+
+        \item Pour trouver la période du signal, on suppose que l'ALI A3 vient de basculer à $-V_{sat}$ à $t=0$, donc $v_2(0)=+v_b=+V_{sat}R_3/(R_3+R_4)$ et $v_s(0)=-V_{sat}$. 
+        Tant que A3 n'a pas basculé, on a donc $v_1(t>0)=\frac{R_2}{R_1}V_{sat}$. Ensuite, $v_2$ s'écrit :
+        \begin{align*}
+            v_2(t)&=-\frac{1}{RC}\int_0^t dt v_1(t) \\
+            &=-\frac{R_2}{R_1RC}V_{sat}\times t+v_2(0) \\
+            &=-\frac{R_2}{R_1RC}V_{sat}\times t+V_{sat}\frac{R_3}{R_3+R_4}
+        \end{align*}
+        La tension $v_2$ décroît donc linéairement au cours du temps, jusqu'à atteindre à $t=t_b$ la condition de basculement $v_2(t_b)=-v_b=-V_{sat}R_3/(R_3+R_4)$, qu'on trouve à l'aide de l'expression précédente :
+        \begin{align*}
+            t_b=\frac{2R_3R_1RC}{R_2(R_3+R_4)}
+        \end{align*}
+        
+        Pour $t>t_b$, on a donc $v_s=+V_{sat}$ et $v_2$ s'écrit alors :
+        \begin{align*}
+            v_2(t>t_b)&=-\frac{1}{RC}\int_{t_b}^t dt v_1(t) \\
+            &=+\frac{R_2}{R_1RC}V_{sat}\times t+v_2(t_b) \\
+            &=-\frac{R_2}{R_1RC}V_{sat}\times t-V_{sat}\frac{R_3}{R_3+R_4}
+        \end{align*}
+        La tension $v_2$ croît alors linéairement, jusqu'à atteindre de nouveau la condition de basculement, $v_2(t_b)=-v_b$, , à $t=2t_b$, à partir de laquelle on se retrouve de nouveau dans la situation initiale $v_s=-V_{sat}$, donc $v_2=+v_b$.
+
+        {\centering
+		\includegraphics[scale=0.7]{electronique_generateur_triangle_3.pdf}\par }
+
+        On en déduit donc facilement la période $T$ :
+        \begin{align*}
+            T=2t_b=\frac{4R_3R_1RC}{R_2(R_3+R_4)}
+        \end{align*}
+
+    \end{enumerate}
+
+\end{correction}
