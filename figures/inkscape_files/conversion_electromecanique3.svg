@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-   sodipodi:docname="conversion_electromeca3.svg"
+   sodipodi:docname="conversion_electromecanique3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.8902387"
-     inkscape:cx="292.70938"
-     inkscape:cy="232.16075"
+     inkscape:zoom="0.95080512"
+     inkscape:cx="393.35085"
+     inkscape:cy="245.05547"
      inkscape:window-width="1512"
      inkscape:window-height="838"
      inkscape:window-x="0"
@@ -85,7 +85,7 @@
        r="0.5" />
     <g
        id="g683"
-       transform="translate(-1.2e-5,12)"
+       transform="matrix(1.44,0,0,1.44,-45.760012,0.8000002)"
        style="stroke:#ff0000">
       <circle
          style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
@@ -101,47 +101,47 @@
          r="0.5" />
     </g>
     <circle
-       style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
+       style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
        id="path420-9-5"
        cx="103.99998"
-       cy="100"
-       r="2" />
+       cy="98.879997"
+       r="2.8800001" />
     <path
-       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
-       d="m 102.57081,98.570827 2.8,2.799993"
+       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
+       d="m 101.94199,96.82199 4.032,4.03199"
        id="path849" />
     <path
-       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
-       d="m 102.87081,101.37082 2.5,-2.599993"
+       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
+       d="m 102.37399,100.85398 3.6,-3.74399"
        id="path851" />
     <circle
-       style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
+       style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
        id="circle934"
        cx="70"
-       cy="-133.49998"
-       r="2"
+       cy="-132.87999"
+       r="2.8800001"
        transform="rotate(90)" />
     <circle
-       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
+       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
        id="circle936"
-       cx="70.02916"
-       cy="-133.49998"
-       r="0.5"
+       cx="70.041985"
+       cy="-132.87999"
+       r="0.72000003"
        transform="rotate(90)" />
     <circle
-       style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
+       style="fill:none;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
        id="circle938"
-       cx="70"
-       cy="-74.499985"
-       r="2"
+       cx="70.042023"
+       cy="-75.545479"
+       r="2.8800001"
        transform="rotate(90)" />
     <path
-       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
-       d="m 75.929161,68.570816 -2.8,2.8"
+       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
+       d="m 77.603489,67.984 -4.032,4.032"
        id="path940" />
     <path
-       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:0.799999;stroke-miterlimit:4.2"
-       d="m 73.129161,68.870816 2.6,2.5"
+       style="fill:#0000ff;fill-opacity:0.966102;stroke:#ff0000;stroke-width:1.152;stroke-miterlimit:4.2"
+       d="m 73.571489,68.416 3.744,3.6"
        id="path942" />
     <path
        style="fill:#000000;fill-opacity:0.966102;stroke:none;stroke-width:0.799999;stroke-miterlimit:4.2;stroke-dasharray:none;stroke-dashoffset:0"
@@ -214,14 +214,14 @@
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:7.05556px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#ff0000;fill-opacity:0.966102;stroke:none;stroke-width:0.799999;stroke-miterlimit:4.2;stroke-dasharray:2.4, 2.4;stroke-dashoffset:0;stroke-opacity:1"
-       x="109.20084"
-       y="46.062111"
+       x="110.78835"
+       y="47.120445"
        id="text7341-2-0"><tspan
          sodipodi:role="line"
          id="tspan7339-7-0"
          style="fill:#ff0000;stroke:none;stroke-width:0.8"
-         x="109.20084"
-         y="46.062111">i<tspan
+         x="110.78835"
+         y="47.120445">i<tspan
    style="font-size:65%;baseline-shift:sub;fill:#ff0000"
    id="tspan8356">1</tspan></tspan></text>
     <text
