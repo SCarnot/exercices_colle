@@ -1,0 +1,71 @@
+\chapter{Puissance électrique en régime sinuoïdal}
+
+\newpage
+
+\section{Puissance absorbée par une installation}
+
+Une installation électrique, constituée de nombreuses machines tournantes, équivalente à une résistance et une bobine en série $(R_1,L_1)$, est alimentée par la tension du réseau de valeur efficace $U=220$V à la fréquence $f=50$Hz.
+
+\begin{center}
+	\includegraphics[scale=1.2]{puissance_electrique1_1.pdf}
+\end{center}
+
+\begin{enumerate}
+
+    \item \textit{Schéma (a)} : L'installation est de type inductif, qui consomme une puissance $P_1=2,0$kW et est parcourue par un courant d'intensité efficace $I_1=18,2$A. En déduire les valeurs de $R_1$ et l'inductance $L$. Calculer le facteur de puissance $\cos(\varphi_1)$.
+
+    \item \textit{Schéma (b)} : Un radiateur est ajouté à l'installation, équivalent à une résistance $R_2$ en parallèle consommant une puissance $P_2=1,0$kW. Calculer les valeurs efficaces $I$, $I_1$, et $I_2$, la puissance $P$ et le facteur de puissance $\cos(\varphi)$.
+
+    \item \textit{Schéma (c)} : on veut rendre égal à 1 le facteur de puissance $\cos(\varphi')$ de l'installation. Pourquoi le distributeur d'électricité impose cette condition ? Quelle valeur de capacité $C$ doit-on placer en parallèle ?
+
+\end{enumerate}
+
+\newpage
+
+\begin{correction}
+
+    \begin{enumerate}
+
+        \item On définit l'origine des phases par la tension : $u=\sqrt{2}U\cos(\omega t)$, le courant $i_1$ étant en déphasage de $\varphi$ par rapport à $u$ : $i_1(t)=\sqrt{2}I_1\cos(\omega t\varphi_1)$.
+        On sait que la puissance est, en moyenne, uniquement dissipée dans la résistance : $P=R_1I_1^2$. On en déduit donc $\boxed{R_1=6,04\Omega}$.
+
+        D'autre part, $\underline{i_1}=(R_1+jL_1\omega)\underline{u}$, donc, en prenant le module : 
+        \begin{align*}
+            \boxed{L_1=\frac{1}{\omega}\sqrt{\frac{U^2}{I_1^2}-R_1^2}=33\mathrm{mH}}
+        \end{align*}
+
+        Pour le facteur de puissance, on utilise simplement la formule $P_1=UI_1\cos(\varphi_1)$, on trouve $\boxed{\cos(\varphi_1)=0,50}$ (donc $\varphi_1=\pi/3$).
+
+        \item Dans la branche où circule $i_2$, il n'y a pas de déphasage comme il n'y a ni inductance, ni capacité. On a donc $\boxed{I_2=P_2/U=4,55\mathrm{A}}$.
+
+        Pour trouver les autres grandeurs, on s'appuie sur un diagramme de Fresnel, qui simplifie l'analyse : 
+
+        {\centering
+		\includegraphics[scale=1.6]{puissance_electrique1_2.pdf}\par }
+
+        L'intensité efficace $I_1=18,2$A reste inchangée, étant donné qu'elle est alimentée par la même tension. Avec le diagramme de Fresnel, on en déduit l'intensité $I$ :
+        \begin{align*}
+            \boxed{I=\sqrt{(I_1\cos(\varphi_1)+I_2)^2+I_1^2\sin(\varphi_1)^2}=20,9\mathrm{A}}
+        \end{align*}
+
+        Avec le diagramme de Fresnel, on trouve le facteur de puissance : 
+        \begin{align*}
+            \boxed{\cos(\varphi)=\frac{I_1\cos(\varphi_1)+I_2}{I}=0,65}
+        \end{align*}
+
+        La puissance est tout simplement la somme des deux puissances dissipée dans les résistances : $P=3,0$kW.
+
+        \item Le distribiteur impose cette condition afin de minimiser l'intensité efficace dans le réseau à puissance fixée. En effet, les lignes électriques ayant une résistance faible mais non nulle, à puissance consommée chez l'utilisateur, un facteur de puissance faible engendrera une intensité élevée dans le réseau et une dissipation d'autant plus importante. 
+
+        Pour mettre le facteur de puissance égal à 1, il faut que le courant $I_3$ "remonte" le courant total de sorte à ce qu'il ait une partie imaginaire nulle (cf schéma ci-dessus). 
+        On doit donc avoir : $I_3=I_1\sin(\varphi_1)=$
+        \begin{align*}
+            I_3=I_1\sin(\varphi_1)=UC\omega
+        \end{align*}       
+        On trouve donc : 
+        \begin{align*}
+            \boxed{C = \frac{I_1\sin(\varphi_1)}{U\omega}=2,3\times10^{-4}\mathrm{F}}
+        \end{align*}  
+    \end{enumerate}
+
+\end{correction}
