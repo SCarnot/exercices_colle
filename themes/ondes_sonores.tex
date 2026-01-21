@@ -31,9 +31,7 @@ où l'indice $j$ représente le milieu 1 ou 2. Pour simplifier, on a supposé qu
 	
 	\item Quelle relations que vérifient la vitesse et la surpression à l'interface en $x=0$ ? Justifier. 
 	
-	\item Quelqu'un génère une onde depuis les $x<0$, qui arrive sur l'interface depuis le milieu 1. Pourquoi a t-on nécessairement l'apparition d'une onde réfléchie et d'une onde transmise à l'interface si les milieux 1 et 2 ne sont pas les mêmes ?
-	
-	\item Exprimer les coefficients de réflexion en vitesse $r_v=v_1^-(t)/v_1^+(t)$ et de transmission $t_v=v_2^+(t)/v_1^+(t)$, puis les coefficients de réflexion en pression $r_p$ et de transmission $t_p$
+	\item Quelqu'un génère une onde depuis les $x<0$, qui arrive sur l'interface depuis le milieu 1. Exprimer les coefficients de réflexion en vitesse $r_v=v_1^-(t)/v_1^+(t)$ et de transmission $t_v=v_2^+(t)/v_1^+(t)$, puis les coefficients de réflexion en pression $r_p$ et de transmission $t_p$
 	
 	\item En déduire les coefficients de réflexion $R$ et de transmission $T$ en intensité. 
 	
@@ -104,7 +102,7 @@ En injectant dans une des équations couplées précédentes, on a alors :
 \section{Onde acoustique guidée (Mines-Ponts PSI 2021)}
 
 Un émetteur produit dans l'air une onde acoustique de fréquence $f=40$kHz et de longueur d'onde $\lambda$. L'air possède une masse molaire $M=29$g.mol$^{-1}$, un coefficient de compressibilité isentropique $\chi_S$ et un coefficient de Laplace $\gamma$. Au repos, à $20^\circ C$, la pression de l'air vaut $P_0=1$bar et sa masse volumique $\mu_0=1,2$kg.m$^{-3}$.
-Au passage de l'onde sonore, que l'on suppose se propager uniquement suivant l'axe $x$, la masse volumique, la pression et la vitesse de l'air sont modifiées : $\mu=\mu_0+\mu_1(x,t)$, $P=P_0+P_1(x,t)$ et $\vec{v}=v(x,t)\vec{e}_x$.
+Au passage de l'onde sonore, que l'on suppose se propager uniquement suivant l'axe $x$, la masse volumique, la pression et la vitesse de l'air sont modifiées : $\mu=\mu_0+\mu_1(x,t)$, $P=P_0+p_1(x,t)$ et $\vec{v}=v(x,t)\vec{e}_x$.
 
 \begin{enumerate}
 
@@ -139,6 +137,95 @@ Au passage de l'onde sonore, que l'on suppose se propager uniquement suivant l'a
 
     \item A quelle condition sur $a$ et la longueur d'onde $\lambda$ de l'onde libre, le mode fondamental $n=0$ se propage t-il seul entre les plaques ? Faire l'application numérique. 
 
-
-
 \end{enumerate}
+
+\newpage
+
+\begin{correction}
+
+	\begin{enumerate}
+
+		\item L'approximation acoustique consiste à supposer que $p_1\ll P_0$, $\mu_1\ll\mu_0$ et $v\ll c$. En conséquence, on simplifie les équations de la mécanique des fluides à l'ordre 1. 
+		On commence par l'équation d'Euler qui donne une première relation entre $v$ et $p$ dans le cadre de l'approximation acoustique :	
+		\begin{align*}
+			\mu_0\frac{\partial v}{\partial t}+\frac{\partial p_1}{\partial x} &=0	
+		\end{align*}
+		Ensuite, l'équation de la conservation de la masse :
+		\begin{align*} 
+			\frac{\partial \mu_1}{\partial t}+\frac{\partial v}{\partial x}&=0
+		\end{align*}
+		Et enfin, on utilise la compressibilité isentropique de l'air :
+		\begin{align*}
+			\mu_1 &= \chi_s\mu_0p_1
+		\end{align*}
+
+		\item Avec les équations précédentes, on obtient donc deux équations couplées sur $p_1$ et $v$ :
+		\begin{align*}
+			\mu_0\frac{\partial v}{\partial t}&=-\frac{\partial p_1}{\partial x} \\
+			\chi_S\frac{\partial p_1}{\partial t}&=-\frac{\partial v}{\partial x}
+		\end{align*}
+		On en déduit donc l'équation d'Alembert vérfiée par la surpression : 
+			\begin{align*}
+				\frac{\partial^2 p_1}{\partial t^2}=\frac{1}{c_0^2}\frac{\partial^2p_1}{\partial x^2}
+			\end{align*}
+		La célérité est $c_0=1/\sqrt{\chi_s\rho_0}$.
+
+		\item L'impédance acoustique est définie comme le coefficient de proportionalité entre la surpression et la vitesse acoustique : $p_1=Z_av$. Pour une OPPM, l'équation d'Euler donne $\mu_0 j\omega v = ikp_1$. La relation de dispersion dans le milieu étant $\omega^2=k^2c^2$, on trouve :
+		\begin{align*}
+			\boxed{Z_a=\mu_0c}
+		\end{align*}
+
+		L'intensité sonore est $I=\frac{1}{2}Z_av_m^2$ (expression déduite du vecteur de Poyting, que l'on retrouve facilement pour une OPPM), et on a $I_{dB}=10\log(I/I_0)$. On en déduit :
+		\begin{align*}
+			\boxed{v_m=\sqrt{\frac{2I_0}{Z_a}10^{I_{dB}/10}}}=7,0\times10^{-2}\mathrm{m/s}
+		\end{align*}		
+
+		\item Il s'agit d'une onde progressive, monochromatique mais pas plane. Les plaques imposent les conditions aux limites précisées dans l'énoncé, et donc que l'amplitude dépend de $z$. 
+
+		\item On injecte la solution proposée dans l'équation d'Alembert : 
+		\begin{align*}
+			-\omega^2p(z)=-c^2k^2p(z)+c^2p''(z)
+		\end{align*}
+		On obtient alors l'équation différentielle suivante : 
+		\begin{align*}
+			p''(z)+\left(\frac{\omega^2}{c^2}-k^2 \right)p(z)=0
+		\end{align*}		
+		Attention, la relation de dispersion $\omega^2=k^2c^2$ n'est plus valide avec la présence des deux plaques. En posant $\kappa^2=\omega^2/c^2-k^2$, on obtient comme solutions :
+		\begin{align*}
+			p(z)=A\cos(\kappa z)+B\sin(\kappa z)
+		\end{align*}
+		Les conditions aux limites s'écrivent :
+		\begin{align*}
+			0&=B \\
+			0&=A\sin(\kappa a)+B
+		\end{align*}
+		En conséquence, on a nécessairement $\kappa a=n\pi$, avec $n$ entier, correspondant à une amplitude $A_n$. Ainsi, $p(z)$ s'écrit : 
+		\begin{align*}
+			p(z)=A_n\cos\frac{n\pi z}{a}
+		\end{align*}
+
+		\item On réinjecte la solution trouvée dans l'équation de propagation, et on trouve :
+		\begin{align*}
+			-\omega^2=c^2\left(\frac{n\pi}{a}\right)^2-c^2k^2
+		\end{align*}
+		On trouve donc :
+		\begin{align*}
+			k^2=\frac{\omega^2-\omega^2_{c,n}}{c^2}
+		\end{align*}
+		Avec $\boxed{\omega_{c,n}=n\pi c/a}$. Ainsi si $\omega<\omega_{c,n}$, $k=\pm ik_0$ est imaginaire pur et il n'y a plus de propagation. En effet, en passant en complexe l'expression de la pression, on obtient dans ce cas :
+		\begin{align*}
+			\underline{p_1}&=p(z)e^{i(\omega t- kz +\Phi)} \\
+			&=p(z)e^{i(\omega t +\Phi)}e^{-k_0z}
+		\end{align*}
+		Ce qui représente une onde stationnaire, dont l'amplitude décroit exponentiellement entre les deux plaques.
+
+		\item Pour que seul le mode fondamental se propage, il faut que $\omega<\omega_{c,1}=\pi c/a$. Pour l'onde libre, on a $\omega=2\pi c/\lambda$ donc la condition doit être :
+		\begin{align*}
+			\boxed{a<\frac{\lambda}{2}}
+		\end{align*}
+
+		Dans ce cas là, $p(z)=A_0$, l'onde est plane et peut se propager quelque soit sa fréquence. 
+
+		\end{enumerate}.
+
+\end{correction}
