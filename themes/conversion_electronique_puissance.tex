@@ -1,0 +1,104 @@
+\chapter{Conversion électronique de puissance}
+
+\newpage
+
+\section{Hacheur - convertisseur SEPIC}
+
+Les supercondensateurs sont des dispositifs de stockage électrique prometteurs, mais leur inconvénient par rapport à des batteries lithium-ion est la grande variation de tension à leurs bornes lors de leur décharge. On s'intéresse au cas d'un supercondensateur, modélisé par une source de tension $V_e$ pouvant varier de 54 à 27V, servant à alimenter un moteur (représenté par la résistance $R_C$) avec une tension et une intensité constantes $V_s=36$V et $I_s=10$A.
+Pour maintenir une tension constante aux bornes du moteur, on utilise un converstisseur SEPIC (Single Ended Primary Inductor Convertor) représenté ci-dessous :
+
+\begin{center}
+	\includegraphics[scale=0.38]{conversion_electronique_puissance1_1.png}
+\end{center}
+
+On fera les hypothèses suivantes pour le fonctionnement : 
+\begin{itemize}
+
+    \item les interrupteurs travaillent à la fréquence de découpage $f=300$kHz et avec le rapport cyclique $\alpha$ ;
+    \item Sur une période de fonctionnement, l'interrupteur $K_1$ (resp. $K_2$) est fermé (resp. ouvert) sur l'intervalle $[0,\alpha T]$, ouvert (resp. fermé) sur l'intervalle $[\alpha T,T]$ ;
+    \item On tolère des ondulations relatives (par rapport aux valeurs moyennes) de 10\% pour l'intesité du courant d'entrée $I_e$ et de 1\% pour la tension de sortie $V_s$.
+
+\end{itemize}
+\begin{enumerate}
+    
+    \item A partir d'un bilan de puissance, calculer la valeur moyenne maximale du courant d'entrée $I_{e,max}$. 
+    \item Montrer que les valeurs moyennes de $V_{L_1}$ et $V_{L_2}$ sont nulles. En déduire la valeur moyenne $<V_{C_1}>$ de la tension aux bornes de $C_1$.
+
+\end{enumerate}
+
+Pour la suite, on suppose que $V_{C_1}(t)\simeq<V_{C_1}>$.
+
+\begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Tracer le chronogramme de la tension aux bornes de la bobine d'induction $L_2$, $V_{L_2}$.
+    \item En déduire le gain du convertisseur $V_s/V_e$ en fonction de $\alpha$. Quel est l'intérêt du convertisseur SEPIC ?
+    \item Calculer le rapport cyclique $\alpha$ si la tension d'entrée est $V_e=54$V, puis pour $V_e=27$V. 
+    \item Calculer la valeur minimale de l'inductance $L_1$ permettant que l'ondulation du courant d'entrée soit inférieure à 10\% de sa valeur moyenne $<I_e>$, quelque soit $V_e$.
+    \item En supposant le courant de sortie $I_s$ constant, calculer la valeur minimale de $C_2$ permettant de limiter l'ondulation maximale de la tension de sortie $V_s$ à 1\% de sa valeur moyenne, prise égale à 36V, pour une tension  d'entrée à 36V.
+
+\end{enumerate}
+
+\newpage
+
+\begin{correction}
+
+    \begin{enumerate}
+
+        \item Hormis la résistance $R_C$, tout le circuit est composé d'éléments non dissipatifs. En conséquence, la puissance moyenne à l'entrée du circuit doit être égale à celle à la sortie : $<V_eI_e>=<V_sI_s>$. Sur un cycle de durée $T=1/300\times10^5$s, on peut raisonnablement supposer que la tension du supercondensateur n'a pas varié (étant un dispositif de stockage, sa tension doit varier sur une durée de plusieurs heures), donc $V_e$ est constante. 
+        Comme $I_s$ est constante, on a $V_e<I_e>=<V_s>I_s$. La valeur maximale de l'intensité d'entrée est atteinte lorsque la tension $V_e=27$V est minimale :
+        \begin{align*}
+            \boxed{I_{e,max}=<I_e>=\frac{<V_s>I_s}{V_e}=13\mathrm{A}}
+        \end{align*}
+
+        \item Comme toutes les tensions et intensités dans le circuit sont $T-$périodiques, $I_{L_1}$ et $I_{L_2}$ sont périodiques. En conséquence,
+        \begin{align*}
+            <V_{L_1}>=&\frac{1}{T}\int_0^TdtL_1\frac{dI_{L_1}}{dt} \\
+            =&\frac{1}{T}(I_{L_1}(T)-I_{L_1}(0))\\
+            =&0
+        \end{align*}
+        Même chose pour $V_{L_2}$.
+        
+        Avec la loi des mailles, on a : $<V_e>=V_{L_1}+V_{C_1}+V_{L_2}$. Donc $\boxed{<V_{C_1}>=V_e}$.
+
+        \item Durant la première phase $t\in[0,\alpha T]$, $K_1$ est fermé et $K_2$ est ouvert, on a donc $V_{L_2}+V_{C_1}=0$. On a alors :
+        \begin{align*}
+            V_{L_1}(0<t<\alpha T)=-V_e
+        \end{align*}
+        Durant la seconde phase $t\in[\alpha T,T]$, $K_1$ est ouvert et $K_2$ est fermé et donc $V_{L_2}=V_s$. Le condensateur $C_2$ a pour but de lisser les variations de $V_s$ et n'intervient pas ici. 
+        Comme $<V_{L_2}>=0$, cela donne ce chronogramme : 
+
+        {\centering
+                \includegraphics[scale=1.0]{conversion_puissance_electronique1_2.pdf}\par }
+
+        \item La condition $<V_{L_2}>=0$ s'écrit $<V_{L_2}>=-\alpha T\times V_e + (1-\alpha)T\times V_s=0$. On en déduit :
+        \begin{align*}
+            \boxed{V_s = \frac{\alpha}{1-\alpha}V_e}
+        \end{align*}
+
+        \item Pour $V_s/V_e=36/54=2/3$, on trouve $\alpha=2/5=0,4$. Pour $V_s/V_e=36/27=4/3$, on trouve $\alpha=4/7\simeq0,6$.
+
+        \item Pour $t\in[0,\alpha T]$, $K_1$ est fermé, la bobine est simplement en série avec le supercondensateur : $V_{L_1}=L_1di_{L_1}/dt=V_e$. On a donc :
+        \begin{align*}
+            i_e(t)=i_{L_1}(t)=i(t=0)+\frac{V_e}{L_1}t
+        \end{align*}
+        L'ondulation est donc $\Delta i_e=\alpha TV_e/L_1$. Comme le critère donné par l'énoncé est $\Delta i_e<0,1I_e$, on a, en utilisant la conservation de la puissance $I_eV_e=I_sV_s$ :
+        \begin{align*}
+            L_1&>10\times \frac{\alpha V_e}{fI_e} \\
+            &>10\times \frac{V_s}{fI_s}\frac{\alpha^2}{1-\alpha}
+        \end{align*}
+        Pour trouver la valeur minimale de $L_1$, il faut savoir comment celle-ci évolue en fonction de $\alpha$ (donc dérivation, on trouve que c'est une fonction décroissante de $\alpha$), soit en testant les deux valeurs extrêmes de $\alpha$. 
+        La valeur maximale de $L_1$ est obtenue lorsque $\alpha=0,4$ (soit $V_e=54$V), donc on trouve $\boxed{L_1>108\mu\mathrm{H}}$.
+
+        \item Pour $t\in[0,\alpha T]$, $K_2$ est ouvert, donc on a $i_{C_2}=-I_s$ et ainsi $V_s(t)=U_{C_2}(t)=V_s(0)-I_St/C_2$. L'onudlation est donc :
+        \begin{align*}
+            \Delta V_s = \frac{\alpha I_s}{fC_2}
+        \end{align*}
+        Comme la contrainte sur l'ondulation est $\Delta V_s<0,01V_s$ pour $V_s=V_e=36$V :
+        \begin{align*}
+            C_2 > 100\times\frac{\alpha I_s}{fV_s}
+        \end{align*}
+        La condition $V_e=V_s$ impose $\alpha=0,5$, ce qui donne $\boxed{C_2>46\mu\mathrm{F}}$.
+
+    \end{enumerate}
+
+\end{correction}

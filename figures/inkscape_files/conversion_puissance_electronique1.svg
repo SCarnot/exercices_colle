@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="79.670441mm"
+   height="48.056461mm"
+   viewBox="0 0 79.670441 48.056461"
+   version="1.1"
+   id="svg185"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="conversion_puissance_electronique1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview187"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.5101357"
+     inkscape:cx="63.570447"
+     inkscape:cy="109.9239"
+     inkscape:window-width="1512"
+     inkscape:window-height="838"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid306"
+       units="mm"
+       spacingx="0.1"
+       spacingy="0.1"
+       originx="-20.800387"
+       originy="-3.9435357" />
+  </sodipodi:namedview>
+  <defs
+     id="defs182" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20.800386,-3.9435359)">
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.3"
+       d="M 27.999999,51.999999 V 10"
+       id="path362" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.3"
+       d="m 27.999999,7.9999998 -1,4.0000002 h 1 H 29 Z"
+       id="path418" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.260312"
+       d="M 100.47083,32 97,31.132292 V 32 32.867709 Z"
+       id="path418-8" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="M 26,31.999999 H 97.999999"
+       id="path1137" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="M 88,31.999999 V 33"
+       id="path1170" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-opacity:1"
+       d="M 67,31.999999 V 33"
+       id="path1172" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="85.280579"
+       y="36.527298"
+       id="text1228"><tspan
+         sodipodi:role="line"
+         id="tspan1226"
+         style="font-size:4.23333px;stroke:none;stroke-width:0.3"
+         x="85.280579"
+         y="36.527298">T</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="99.639229"
+       y="36.936501"
+       id="text1228-9"><tspan
+         sodipodi:role="line"
+         id="tspan1226-1"
+         style="font-size:4.23333px;stroke:none;stroke-width:0.3"
+         x="99.639229"
+         y="36.936501">t</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="62.794174"
+       y="36.407333"
+       id="text2008"><tspan
+         sodipodi:role="line"
+         id="tspan2006"
+         style="stroke-width:0.3"
+         x="62.794174"
+         y="36.407333">αT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="26.054098"
+       y="35.936501"
+       id="text2008-9"><tspan
+         sodipodi:role="line"
+         id="tspan2006-1"
+         style="stroke-width:0.3"
+         x="26.054098"
+         y="35.936501">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="31"
+       y="7"
+       id="text2039"><tspan
+         sodipodi:role="line"
+         id="tspan2037"
+         style="stroke-width:0.3"
+         x="31"
+         y="7">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan2041">L2</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.3;stroke-opacity:1"
+       d="m 26,17.000001 h 1.999999 V 40 H 67 V 17.000001 H 88 V 40 h 5.999999"
+       id="path2771" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="24.255407"
+       y="19.114799"
+       id="text2039-0"><tspan
+         sodipodi:role="line"
+         id="tspan2037-2"
+         style="stroke-width:0.3"
+         x="24.255407"
+         y="19.114799">V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9036">S</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.23333px;font-family:'TeX Gyre Schola';-inkscape-font-specification:'TeX Gyre Schola Italic';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.3;stroke-opacity:1"
+       x="23.72624"
+       y="41.056465"
+       id="text2039-0-4"><tspan
+         sodipodi:role="line"
+         id="tspan2037-2-1"
+         style="stroke-width:0.3"
+         x="23.72624"
+         y="41.056465">-V<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9036-6">E</tspan></tspan></text>
+  </g>
+</svg>
